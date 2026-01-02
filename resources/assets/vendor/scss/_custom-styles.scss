@@ -1,0 +1,190 @@
+// This file is used for writing your custom styles
+
+:root,
+[data-bs-theme='light'] {
+  --bs-dark: #212322;
+  --bs-success-rgb: 141, 233, 113;
+  --bs-success-rgb-dark: 50, 141, 22;
+  --bs-custom-link-color: rgb(50, 141, 22);
+  --bs-success-bg-subtle: #dcf8d3;
+  --bs-warning-bg-subtle: #fff7d6;
+}
+
+.text-success-dark {
+  color: rgb(var(--bs-success-rgb-dark)) !important;
+}
+
+.offcanvas,
+.offcanvas-xxl,
+.offcanvas-xl,
+.offcanvas-lg,
+.offcanvas-md,
+.offcanvas-sm {
+  --bs-offcanvas-width: 562px;
+}
+
+.modal-backdrop {
+  --bs-backdrop-bg: #000;
+}
+
+.offcanvas-backdrop.show {
+  background: black;
+}
+
+// .card {
+//    background-color: #fd0000;
+//  }
+
+.pagination {
+  --bs-pagination-active-color: #212322;
+}
+
+[data-semidark-menu='true'],
+[data-bs-theme='dark'] {
+  --bs-menu-bg: #212322;
+  --bs-menu-color: #fff;
+}
+
+.menu-item.active > .menu-link:not(.menu-toggle) {
+  background: transparent;
+  box-shadow: unset;
+  color: var(--bs-primary);
+}
+
+.layout-menu-collapsed:not(.layout-menu-hover, .layout-menu-offcanvas, .layout-menu-fixed-offcanvas)
+  .layout-menu.menu-vertical:not(.layout-menu-hover)
+  .menu-inner
+  > .menu-item
+  > .menu-link {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.layout-menu-collapsed:not(.layout-menu-hover, .layout-menu-offcanvas, .layout-menu-fixed-offcanvas)
+  .layout-menu.menu-vertical
+  .menu-inner
+  > .menu-item
+  div:not(.menu-block) {
+  overflow: visible;
+  opacity: 1;
+  font-size: 12px;
+}
+
+.layout-menu-collapsed:not(.layout-menu-hover, .layout-menu-offcanvas, .layout-menu-fixed-offcanvas)
+  .layout-menu.menu-vertical
+  .app-brand {
+  flex-direction: column;
+  padding-left: 0;
+  padding-right: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.layout-menu-collapsed:not(.layout-menu-hover, .layout-menu-offcanvas, .layout-menu-fixed-offcanvas)
+  .layout-menu.menu-vertical
+  .app-brand
+  a {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.layout-menu.menu-vertical .app-brand img {
+  max-width: 120px;
+  margin: 0 auto;
+}
+
+.layout-menu-collapsed .layout-menu.menu-vertical .app-brand img {
+  max-width: 70px;
+}
+
+.menu-vertical .menu-inner > .menu-item .menu-link {
+  margin-inline: 0 !important;
+}
+
+a.layout-menu-toggle.menu-link.text-large.ms-auto {
+  margin-left: 0 !important;
+}
+
+.bg-light.rappasoft-striped-row {
+  background-color: transparent !important;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link,
+.primary-black {
+  color: #212322;
+}
+
+.badge.bg-warning-subtle {
+  color: #5c4b00;
+}
+
+.border-dashed {
+  border-style: dashed !important;
+}
+// resolution steps offcanvas custom styles
+.replacement-items-wrapper button {
+  width: fit-content !important;
+}
+.grey-g1,
+.return-label-field input::placeholder {
+  color: #4d4f4e !important;
+}
+.grey-g2 {
+  color: #7a7b7a;
+}
+.bg-grey-g5 {
+  background: #f4f4f4;
+}
+.note-highight-bar,
+.send-partial-refund-block:not(.border-success),
+.stock-availability-mail-block {
+  border: 1px solid #d3d3d3;
+}
+.new-order-wrapper .mb-4:last-child {
+  margin-bottom: 0px !important;
+}
+.warehouse-details th,
+.fs-20 {
+  font-size: 20px;
+  line-height: 26px;
+  color: #212322 !important;
+}
+.warehouse-details td,
+.fs-12 {
+  font-size: 12px;
+  line-height: 18px;
+}
+.refund-details-table th,
+.fs-14 {
+  font-size: 14px;
+  line-height: 20px;
+}
+.warehouse-details-info h6 {
+  line-height: 20px;
+}
+.distance-row {
+  padding-right: 12px;
+}
+.return-label-field .form-control:focus {
+  box-shadow: none !important;
+  padding-block: 0 !important;
+  padding-inline: 0 !important;
+}
+.file-item .file-icon img {
+  width: 48px;
+  height: 48px;
+}
+.refund-details-table .table > :not(caption) > * > * {
+  border: none !important;
+}
+.send-partial-refund-block:not(.border-success) {
+  border: 1px solid #d3d3d3;
+}
+.draft-text {
+  border-left: 1px solid #d3d3d3;
+}

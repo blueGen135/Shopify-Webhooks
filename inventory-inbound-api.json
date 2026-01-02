@@ -1,0 +1,22 @@
+{
+  "sku": "1520",
+  "companies": [
+    {
+      "company_code": "TIRESTREETS_US",
+      "warehouses": [
+        {
+          "warehouse_code": "1525",
+          "warehouse_name": "TS PA",
+          "available_qty": 0,
+          "inbound_shipments": [
+            {
+              "receipt_id": "1525/IN/01089",
+              "eta_date": "2025-12-23",
+              "quantity": 563
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
